@@ -12,3 +12,8 @@ jobs:
     steps:
       - name: Hello world 찍기
         run: echo "hello world"
+
+      - name: 여러줄 실행
+        run: |
+          echo "good"
+          echo "morning"
